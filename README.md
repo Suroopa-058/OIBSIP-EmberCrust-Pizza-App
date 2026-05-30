@@ -1,59 +1,110 @@
+# 🍕 EmberCrust Pizza Delivery App
 
+A full-stack pizza delivery web application built using the MERN Stack.
 
-# 🔥 EmberCrust — Full Stack Pizza Delivery App
+## Features
 
-## STEP 1 — Open in VS Code
-After extracting the zip, open the embercrust/ folder in VS Code.
+### 👤 User Features
 
----
+* User Registration & Login
+* OTP Email Verification
+* JWT Authentication
+* Browse Pizza Menu
+* Search & Filter Pizzas
+* Add to Cart
+* Razorpay Payment Integration
+* Order Tracking
 
-## STEP 2 — Setup Frontend
+### ⚙️ Admin Features
 
-Open Terminal 1 in VS Code:
+* Admin Dashboard
+* Manage Orders
+* Manage Pizza Inventory
+* Stock Tracking
+* Low Stock Alerts
 
+### 📧 Email Features
+
+* OTP Verification Emails
+* Order Confirmation Emails
+* Order Status Update Emails
+* Low Stock Notification Emails
+
+## Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* Context API
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB Atlas
+
+### Payment Gateway
+
+* Razorpay
+
+### Authentication
+
+* JWT
+
+## Installation
+
+### Frontend
+
+```bash
 cd embercrust-frontend
-npm create vite@latest . -- --template react
 npm install
-npm install react-router-dom
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-
----
-
-## STEP 3 — Setup Backend
-
-Open Terminal 2 in VS Code:
-
-cd embercrust-backend
-npm init -y
-npm install express cors dotenv mongoose bcryptjs jsonwebtoken uuid
-npm install -D nodemon
-
----
-
-## STEP 4 — Run Both
-
-Terminal 1 (Frontend):
-cd embercrust-frontend
 npm run dev
-→ http://localhost:5173
+```
 
-Terminal 2 (Backend):
+### Backend
+
+```bash
 cd embercrust-backend
-node server.js
-→ http://localhost:5000
+npm install
+npm start
+```
 
----
+## Screenshots
 
-## Pages
-/ → LandingPage
-/menu → MenuPage
-/cart → CartPage
-/order/:id → OrderTrackPage
+Add screenshots of:
 
-## API Routes
-GET  /api/pizzas
-POST /api/orders
-POST /api/auth/login
-POST /api/auth/register
-POST /api/coupons/validate
+* Home Page
+* Menu Page
+* Cart Page
+* Checkout Page
+* Admin Dashboard
+
+## Project Structure
+
+```text
+embercrust/
+│
+├── embercrust-backend/
+├── embercrust-frontend/
+└── README.md
+```
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Menu Page
+![Menu Page](screenshots/menu.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin.png)
+
+## Author
+
+**Suroopa B**
+
+Internship Project – Oasis Infobyte (OIBSIP)
