@@ -1,4 +1,5 @@
 
+
 # 🔥 EmberCrust — Full Stack Pizza Delivery App
 
 ## STEP 1 — Open in VS Code
@@ -56,6 +57,3 @@ POST /api/orders
 POST /api/auth/login
 POST /api/auth/register
 POST /api/coupons/validate
-=======
-# OIBSIP-EmberCrust-Pizza-App
-
