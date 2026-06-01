@@ -5,7 +5,6 @@ A full-stack pizza delivery web application built using the MERN Stack.
 ## Features
 
 ### 👤 User Features
-
 * User Registration & Login
 * OTP Email Verification
 * JWT Authentication
@@ -16,7 +15,6 @@ A full-stack pizza delivery web application built using the MERN Stack.
 * Order Tracking
 
 ### ⚙️ Admin Features
-
 * Admin Dashboard
 * Manage Orders
 * Manage Pizza Inventory
@@ -24,11 +22,20 @@ A full-stack pizza delivery web application built using the MERN Stack.
 * Low Stock Alerts
 
 ### 📧 Email Features
-
 * OTP Verification Emails
 * Order Confirmation Emails
 * Order Status Update Emails
 * Low Stock Notification Emails
+
+## Demo Credentials
+### 👤 User Access
+* Register a new account using your email.
+* Verify your account using the OTP sent to your email.
+* Login and explore the pizza ordering features.
+
+### ⚙️ Admin Access
+**Email:** [admin@embercrust.com](mailto:admin@embercrust.com)
+**Password:** admin123
 
 ## Tech Stack
 
